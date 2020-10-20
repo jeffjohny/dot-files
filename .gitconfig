@@ -1,6 +1,6 @@
 [user]
-	name = Arjuna
-	email = arjunasuresh3@gmail.com
+	name = Jeff Johny
+	email = jjeff@zeomega.com
 [apply]
     whitespace = fix
 [alias]
@@ -10,11 +10,12 @@
     co = checkout
     br = branch
     lg = log --graph --date=short
-    prom = pull --rebase origin master
+    plod = pull --rebase origin develop
     pom = push origin master
     what = whatchanged -p
     df = diff --word-diff=color
     staged = diff --cached
+    cp = cherry-pick
 [color]
     branch = auto
     diff = auto
@@ -25,9 +26,9 @@
 [format]
     pretty="%Cgreen%h %Cred%cr(%cd) %Cblue(%an) %C(yellow)%d %Creset%s"
 [core]
-    editor = /usr/bin/emacs
+	editor = vim
     whitespace = fix
-    autocrlf = input
+	autocrlf = true
     pager = less -FRSX
 [http]
     sslverify = false
